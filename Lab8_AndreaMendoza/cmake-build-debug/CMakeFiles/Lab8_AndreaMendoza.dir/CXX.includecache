@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/BB01.h
+Civilizacion.h
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/Civilizacion.h
+
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/CC10.h
+Civilizacion.h
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/Civilizacion.h
+
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/Civilizacion.h
+string
+-
+
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/c17ARZ.h
+Civilizacion.h
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/Civilizacion.h
+
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/main.cpp
+iostream
+-
+string
+-
+cmath
+-
+sstream
+-
+vector
+-
+fstream
+-
+ios
+-
+Civilizacion.h
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/Civilizacion.h
+CC10.h
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/CC10.h
+c17ARZ.h
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/c17ARZ.h
+BB01.h
+/home/andrea/Desktop/Progra III/Lab8_AndreaMendoza/BB01.h
+

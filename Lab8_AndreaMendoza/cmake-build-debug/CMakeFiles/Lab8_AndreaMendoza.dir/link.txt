@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Lab8_AndreaMendoza.dir/main.cpp.o CMakeFiles/Lab8_AndreaMendoza.dir/Civilizacion.cpp.o CMakeFiles/Lab8_AndreaMendoza.dir/CC10.cpp.o CMakeFiles/Lab8_AndreaMendoza.dir/BB01.cpp.o CMakeFiles/Lab8_AndreaMendoza.dir/c17ARZ.cpp.o  -o Lab8_AndreaMendoza 
