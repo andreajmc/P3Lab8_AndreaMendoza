@@ -120,6 +120,7 @@ int main() {
             int resp2 = 0;
             cout << "Ingrese un mensaje a codificar: ";
             getline(cin, ogtext);
+            getline(cin, ogtext);
             cout << endl << "CIVILIZACIONES DISPONIBLES" << endl;
             for (int i = 0; i < civilizations.size(); ++i) {
                 cout << i + 1 << civilizations.at(i)->getName() << endl;
@@ -140,6 +141,7 @@ int main() {
             string ogtext, newtext;
             int resp2 = 0;
             cout << "Ingrese un mensaje a decodificar: ";
+            getline(cin, ogtext);
             getline(cin, ogtext);
             cout << endl << "CIVILIZACIONES DISPONIBLES" << endl;
             for (int i = 0; i < civilizations.size(); ++i) {
@@ -221,7 +223,18 @@ int main() {
             }
             cout << "Mensaje decodificado: " << newtext << endl;
         } else if (resp == 6) {
-
+            ifstream archive;
+            archive.open("HistorialMensajes.txt", ios::in);
+            string data, select;
+            if (archive.fail()) {
+                cout << "No se puedo abrir el archivo" << endl;
+            }
+            while (!archive.eof()) {
+                getline(archive, data);
+                select += data + "\n";
+            }
+            cout<<select<<endl;
+            archive.close();
         }
     }
 }
